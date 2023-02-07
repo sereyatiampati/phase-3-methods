@@ -22,5 +22,8 @@ end
 def halve number
     if number.class != "integer"
         return nil
+    end
+
+    
     number/2
 end
